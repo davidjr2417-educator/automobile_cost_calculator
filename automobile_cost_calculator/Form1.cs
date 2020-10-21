@@ -45,7 +45,7 @@ namespace automobile_cost_calculator
              * Yearly Expense Equation: Monthly Expense * 12;
              */
             Double monthlyExpense = carNoteDbl + carInsureDbl + carGasDbl + carOilDbl + carRepairDbl + carRegDbl;
-            Double yearlyExpense = monthlyExpense * 2;
+            Double yearlyExpense = monthlyExpense * 12;
 
 
             /* 3. Clear Old Data & Return Value To Text Output Area*/
